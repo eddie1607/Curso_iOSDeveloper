@@ -1,0 +1,100 @@
+[{
+   "personagem": "homem Aranha",
+   "nome": "Peter parker",
+   
+   "detalhe": [{
+           "ator": "Tom Holland",
+           "descricao":"O Homem-Aranha alter-ego de Peter Parker, é um personagem fictício, um super-herói que aparece nas revistas em quadrinhos americanas publicadas pela Marvel Comics, existindo no seu universo partilhado",
+           "participacao": [{
+                   "titulo": "Homen aranha",
+                   "ano": "2002",
+                  
+               },
+               {
+                  "titulo": "Homen aranha 2",
+                   "ano": "2004",
+               },
+               {
+                  "titulo": "Homen aranha 3",
+                   "ano": "2007",
+               },
+               {
+                  "titulo": " O espetacular Homen aranha ",
+                   "ano": "2012",
+               },
+               {
+                  "titulo": "Homen aranha  a ameaca de electro",
+                   "ano": "2017",
+               },
+               {
+                  "titulo": "Vingadores",
+                   "ano": "2019",
+               }
+           ]
+       }
+       ]
+},{
+  "personagem":"volverine",
+   "nome": "Logan",
+   "detalhe": [{
+           "ator": "Hugh Jackman",
+           "descricao":"Wolverine é um personagem fictício que aparece em quadrinhos americanos publicados pela Marvel Comics, principalmente em associação com os X-Men.",
+           "participacao": [{
+                   "titulo": "X-men o filme",
+                   "ano": "2000",
+                  
+               },
+               {
+                  "titulo": "X-men origens: volverine",
+                   "ano": "2009",
+               },
+               {
+                  "titulo": "X-men dias de um futuro esquecido",
+                   "ano": "2014",
+               },
+               {
+                  "titulo": " Volverine  ",
+                   "ano": "2013",
+               },
+               {
+                  "titulo": "Logan",
+                   "ano": "2017",
+               }
+           ]
+       }
+       ]
+},{
+  "personagem": "Superman",
+     "nome": "Clark Kent",
+     "detalhe": [{
+             "ator": "Henry Cavill",
+             "Foto":"Foto02",
+             "descricao":"Superman ou Super-Homem é um super-herói fictício de história em quadrinhos americanas publicado pela DC Comics, uma empresa subsidiária do grupo Time Warner. Superman, entretanto, já foi adaptado para diversos outros meios desde os anos 1930, como cinema, rádio, televisão, literatura e Video game",
+             "participacao": [{
+                     "titulo": " superman",
+                     "ano": "1978",
+                    
+                 },
+                 {
+                    "titulo": "Superman 2 a aventura continua",
+                     "ano": "1980",
+                 },
+                 {
+                    "titulo": "superman 3 ",
+                     "ano": "1983",
+                 },
+                 {
+                    "titulo": " Superman 4 em busca da paz ",
+                     "ano": "1987",
+                 },
+                 {
+                    "titulo": "superman o retorno ",
+                     "ano": "2006",
+                 }
+             ]
+         }
+         ]
+    }
+  
+]
+    

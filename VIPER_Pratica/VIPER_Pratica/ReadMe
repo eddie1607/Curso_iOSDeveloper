@@ -1,0 +1,26 @@
+VIPER :
+
+oque é:
+interactor ->  regras de negocio relacionadas a dados()casos de uso e manipulacaoa de dados) & service manager(conexao a banco  e servidor remoto)
+
+ presenter -> regras de negocio  relacionada  a UIview  ( independente da UIKit) atualiza a view
+ 
+ Entity/Model  estruturas de dados que serao preencidas  pelo interator  e manipuladas pelo presenter futuramente
+ 
+ view ->  Camada de apresentacao ,UIView,tableView,collectionview ...
+ 
+ Routers/wireframe -> diz para onde o aplicativos deve navegar segues e  navegacao deve fazer
+ 
+ estruturado  baseado em casos de uso
+ 
+ contras:
+  depende muito de configuracao
+   apps sustentaveis , longo prazo
+   
+    usabilidade 20 -- necessita muita configuracao  inicial
+    legivel 100 --
+    tesavel 100 --
+    extensivel 100 --
+    sustentavel 100 --
+ 
+ 

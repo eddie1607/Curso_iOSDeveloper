@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bola8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball1" translatesAutoresizingMaskIntoConstraints="NO" id="dKI-XO-57x">
+                                <rect key="frame" x="10" y="233.5" width="355" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dKI-XO-57x" secondAttribute="height" multiplier="16:9" id="YD8-TD-OST"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dKI-XO-57x" secondAttribute="trailing" constant="10" id="LzT-n7-Kb8"/>
+                            <constraint firstItem="dKI-XO-57x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="mI6-9U-g4J"/>
+                            <constraint firstItem="dKI-XO-57x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qA1-RY-0f7"/>
+                            <constraint firstItem="dKI-XO-57x" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qM4-7S-nXH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageBall" destination="dKI-XO-57x" id="eoe-0i-I7Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="583" y="82"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ball1" width="460" height="412.5"/>
+    </resources>
+</document>

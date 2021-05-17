@@ -1,0 +1,18 @@
+criar celulas personalizadas com xib
+ usalas em tableview
+  
+  1- criar celulas personalizadas com Xib
+    - facilitar uso de constrais em celulas
+    - desacoplamento no projeto
+    
+2- passo a passo:
+   1- criar um arquivo cocoatouch do tipo tableviewCell "Also Create XIB File"
+   2- inserir  elementos dentro do XIB (UIImagem,buttons,labels etc)
+   
+   3-Customiza-lo e inserir as constrains
+   
+   4- abrir o arquivo swift da  TableView
+    - connectar outlets  semelhante as storybords
+    
+   5- na classe viewControllser   fazer as connexoes necessarias para  funcionar a tableview ou CollectionView
+    - ligar 

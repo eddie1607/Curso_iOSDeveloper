@@ -1,0 +1,27 @@
+
+MVP
+Model - camada de acesso a dados - structs
+view - camada de  apresentacao - UIView,UITableview...
+Presenter - camada de presentacao  (responsavel por atualizar a view com novos estados)
+ obs:
+ -o presenter nao tem realacaoa com a view
+ -a view passa  a ser uma view passiva()
+-a dependencia do ciclo de vida da  view e quebrada
+- UIKIT independente (no presenter)
+- a view ja nao conhece mais o model
+-teste de regra de negocio no presenter
+
+contras:
+preconfiguracao mai complexas
+mais codigogos
+
+quando utilizar:
+testes sao indispensavieis
+
+usabilidade mais complexa  50
+legibilidade 100
+testavel 100
+extensivel 20 (e dificil compeonentizae e delegar a outras pessoas)
+sustentavel: 50   mao cosegue separar as rotas
+
+

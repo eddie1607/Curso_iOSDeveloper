@@ -1,0 +1,27 @@
+MVVM
+model - acesso a dados - structs
+view - camada de apresentacao - UIView,UITAbleView,UICOllectionView
+viewModel - Representacao  da view e de seus estados  sem dependencia da UIKit
+
+como funciona
+-viewController é uma view
+-UIit é independente
+-viewModel é que executa as mudancas no model(ele mesmo atualiza  o view model)
+-a view e atualizada automaticamente pelo view model
+
+
+contras:
+- responsabilidade de atualizacao é da view
+- dificil entendimento par  iniciantes
+   *programacao funcional
+   *Reacive cocoa
+   * RXSwift
+   
+   quando usar
+   em projetos mais robustos (exige conhecimento avancado de swift)
+   
+usabilidade 40 dificil configuracao
+legibilidade 80
+testavel de medio para alto boa testabilidade
+extensivel facil delegar usar recurso
+sustentavel

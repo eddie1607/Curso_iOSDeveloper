@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="MVC_Pratica" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite  sua senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YHY-9x-Cb4">
+                                <rect key="frame" x="42" y="209" width="305" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oaf-pO-OoY">
+                                <rect key="frame" x="42" y="389" width="305" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite o seu nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k47-a0-PKG">
+                                <rect key="frame" x="42" y="120" width="305" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfF-uv-1x0">
+                                <rect key="frame" x="42" y="341" width="305" height="30"/>
+                                <state key="normal" title="Enviar dados Agora!"/>
+                                <connections>
+                                    <action selector="didTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gd8-RD-UqI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="YHY-9x-Cb4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="8oR-mQ-Enu"/>
+                            <constraint firstItem="YHY-9x-Cb4" firstAttribute="trailing" secondItem="bfF-uv-1x0" secondAttribute="trailing" id="8sg-uC-DQp"/>
+                            <constraint firstItem="bfF-uv-1x0" firstAttribute="top" secondItem="YHY-9x-Cb4" secondAttribute="bottom" constant="98" id="9Yb-Pu-BUR"/>
+                            <constraint firstItem="k47-a0-PKG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="GeN-Xo-Nsn"/>
+                            <constraint firstItem="YHY-9x-Cb4" firstAttribute="leading" secondItem="k47-a0-PKG" secondAttribute="leading" id="Hx8-2O-z9h"/>
+                            <constraint firstItem="k47-a0-PKG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="Lqp-c4-nUa"/>
+                            <constraint firstItem="YHY-9x-Cb4" firstAttribute="leading" secondItem="bfF-uv-1x0" secondAttribute="leading" id="REL-U1-UXc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YHY-9x-Cb4" secondAttribute="trailing" constant="67" id="UVl-kG-3lK"/>
+                            <constraint firstItem="k47-a0-PKG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="Vhl-uh-DRB"/>
+                            <constraint firstItem="bfF-uv-1x0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="X62-j0-P3K"/>
+                            <constraint firstItem="bfF-uv-1x0" firstAttribute="trailing" secondItem="Oaf-pO-OoY" secondAttribute="trailing" id="bIb-Mn-OUw"/>
+                            <constraint firstItem="YHY-9x-Cb4" firstAttribute="top" secondItem="k47-a0-PKG" secondAttribute="bottom" constant="55" id="fgO-To-RTr"/>
+                            <constraint firstItem="bfF-uv-1x0" firstAttribute="leading" secondItem="Oaf-pO-OoY" secondAttribute="leading" id="gVv-7g-3Qe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bfF-uv-1x0" secondAttribute="trailing" constant="67" id="jLX-d5-Uw9"/>
+                            <constraint firstItem="Oaf-pO-OoY" firstAttribute="top" secondItem="bfF-uv-1x0" secondAttribute="bottom" constant="18" id="rp6-Mq-nZZ"/>
+                            <constraint firstItem="YHY-9x-Cb4" firstAttribute="trailing" secondItem="k47-a0-PKG" secondAttribute="trailing" id="vaf-0g-rrt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k47-a0-PKG" secondAttribute="trailing" constant="67" id="wjz-sG-15R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblResponse" destination="Oaf-pO-OoY" id="2wy-di-pN6"/>
+                        <outlet property="txtName" destination="k47-a0-PKG" id="2SY-0E-5A6"/>
+                        <outlet property="txtPassword" destination="YHY-9x-Cb4" id="Yh7-07-Chj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142.0289855072465" y="136.60714285714286"/>
+        </scene>
+    </scenes>
+</document>

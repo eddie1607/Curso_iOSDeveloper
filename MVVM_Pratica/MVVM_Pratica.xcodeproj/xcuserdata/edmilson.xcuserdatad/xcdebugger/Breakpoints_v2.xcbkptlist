@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B4F156EA-94F9-4057-85E4-3404691E4379"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "694582BC-8E8F-4B37-8AB1-D7D64D59C35C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Pratica/view/ViewController.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewModel"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "694582BC-8E8F-4B37-8AB1-D7D64D59C35C - 630c63d482f72916"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_Pratica.ViewController.viewModel.didset : Swift.Optional&lt;MVVM_Pratica.UserViewModelProtocol&gt;"
+                  moduleName = "MVVM_Pratica"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/curso_iOSDeveloper/MVVM_Pratica/MVVM_Pratica/view/ViewController.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "694582BC-8E8F-4B37-8AB1-D7D64D59C35C - fe08aeb109358ddf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MVVM_Pratica.UserViewModelProtocol) -&gt; () in MVVM_Pratica.ViewController.viewModel.didset : Swift.Optional&lt;MVVM_Pratica.UserViewModelProtocol&gt;"
+                  moduleName = "MVVM_Pratica"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/curso_iOSDeveloper/MVVM_Pratica/MVVM_Pratica/view/ViewController.swift"
+                  timestampString = "0"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "95">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99730464-E21F-487C-9650-BE4ACEC32524"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Pratica/view/ViewController.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

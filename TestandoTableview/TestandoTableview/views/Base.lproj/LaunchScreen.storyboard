@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simboloMarvel.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NAW-VG-6Un">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NAW-VG-6Un" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="3KB-Su-HC7"/>
+                            <constraint firstItem="NAW-VG-6Un" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6sb-Vl-tJx"/>
+                            <constraint firstItem="NAW-VG-6Un" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="87H-aT-B4a"/>
+                            <constraint firstAttribute="bottom" secondItem="NAW-VG-6Un" secondAttribute="bottom" id="Wg8-c5-4cZ"/>
+                            <constraint firstItem="NAW-VG-6Un" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="e64-0M-G5f"/>
+                            <constraint firstItem="NAW-VG-6Un" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nr6-Nf-wxS"/>
+                            <constraint firstItem="NAW-VG-6Un" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="rXh-bm-Yz9"/>
+                            <constraint firstAttribute="bottom" secondItem="NAW-VG-6Un" secondAttribute="bottom" id="tVY-2b-fBQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-462.31884057971018" y="383.70535714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="simboloMarvel.png" width="193" height="144"/>
+    </resources>
+</document>

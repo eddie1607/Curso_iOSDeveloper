@@ -1,0 +1,10 @@
+1- criar o projeto
+2-baixar o sdk ; https://github.com/spotify/ios-sdk
+3-criar um group frameworks apartir do projeto azul
+4-importa SpotifyiOS.Framework
+5-em build phases:link Binary with Librareies conferisr se o framework esta la
+ -> verificarno  target do projeto  . general se o spotifyiOS.framework
+6-info.plist >url types> identifierBundleID(mesmo bundleid)| Url scheme- spoti
+7- build settings > other librarian Flag  colocar: -ObjC
+8- criar o arquivo de HEADER.h
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8BEB2F6D-96EA-4EDF-BEBB-12A4446528B0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0A74621-3EC8-43D9-86FB-755D53525A5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoEdmilson/TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "TableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F0A74621-3EC8-43D9-86FB-755D53525A5F - d0eab0a2dd692b35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoEdmilson.TableViewCell.__deallocating_deinit"
+                  moduleName = "ToDoEdmilson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/curso_iOSDeveloper/ToDoEdmilson/ToDoEdmilson/ToDoEdmilson/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F0A74621-3EC8-43D9-86FB-755D53525A5F - a4d3d01be52f2ef1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoEdmilson.TableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; ToDoEdmilson.TableViewCell"
+                  moduleName = "ToDoEdmilson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/curso_iOSDeveloper/ToDoEdmilson/ToDoEdmilson/ToDoEdmilson/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "F0A74621-3EC8-43D9-86FB-755D53525A5F - 543953be47c5f590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoEdmilson.TableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; ToDoEdmilson.TableViewCell"
+                  moduleName = "ToDoEdmilson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/curso_iOSDeveloper/ToDoEdmilson/ToDoEdmilson/ToDoEdmilson/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  uuid = "F0A74621-3EC8-43D9-86FB-755D53525A5F - 3fdd7d6585b92d15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoEdmilson.TableViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ToDoEdmilson.TableViewCell&gt;"
+                  moduleName = "ToDoEdmilson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/curso_iOSDeveloper/ToDoEdmilson/ToDoEdmilson/ToDoEdmilson/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "F0A74621-3EC8-43D9-86FB-755D53525A5F - c5adf3d9c7eb97df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoEdmilson.TableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ToDoEdmilson.TableViewCell&gt;"
+                  moduleName = "ToDoEdmilson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/curso_iOSDeveloper/ToDoEdmilson/ToDoEdmilson/ToDoEdmilson/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "119">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

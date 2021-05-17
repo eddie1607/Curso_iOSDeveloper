@@ -1,0 +1,30 @@
+
+Resumo MVC
+oque é:
+Model acesso a dados
+view  apresentaçao (uiview,ui tableview...)
+controller escuta imputs da view  e altera o model
+
+como funciona:
+usuario envia  ações para a controller atraves de imputs na  view
+a controller atualiza a camada de model
+a model notifica o controle que tudo foi alterado
+controller atualiza a view final
+
+vantagens :
+facil de entender
+mesma arquitetura do macosx
+
+problemas
+massisve view controller
+
+quando usar:
+criar protótipos
+fazer exemplos
+projetos pequenos
+
+boa usbilidade
+não muito legivel
+não extensivel
+dificil testabilidade
+sustentavel
